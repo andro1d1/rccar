@@ -13,8 +13,8 @@ class Widgets(QMainWindow):
         self.widget = QWidget(self)
 
         self.webview = QWebEngineView()
-        #self.webview.load(QUrl("http://178.176.46.90:8002/index.html"))
-        self.webview.load(QUrl("https://google.com"))
+        self.webview.load(QUrl("http://178.176.46.90:8002/index.html"))
+        #self.webview.load(QUrl("http://192.168.10.101:8002/index.html"))
         self.webview.setFixedSize(1920, 1080)
 
         self.additional_widget = QLabel(self)

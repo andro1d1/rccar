@@ -16,7 +16,6 @@ class MapParams:
             print("Http статус:", response.status_code, "(", response.reason, ")")
             sys.exit(1)
     
-        # Запись полученного изображения в файл.
         map_file = "map.png"
         try:
             with open(map_file, "wb") as file:
